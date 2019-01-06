@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
          image1 =(ImageView) findViewById(R.id.image1);
          text1=(TextView) findViewById(R.id.text1);
         storage = FirebaseStorage.getInstance();
-        storageReference = storage.getReferenceFromUrl("gs://hackruf2018.appspot.com");
+       
 
 
     }
@@ -123,31 +123,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void uploadImage(Bitmap bitmap) {
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
-        byte[] data = baos.toByteArray();
-
-        FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageRef = storage.getReferenceFromUrl("gs://hackruf2018.appspot.com");
-        StorageReference imagesRef = storageRef.child("images/k.jpg");
-
-        UploadTask uploadTask = imagesRef.putBytes(data);
-        uploadTask.addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception exception) {
-                // Handle unsuccessful uploads
-            }
-        }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                // taskSnapshot.getMetadata() contains file metadata such as size, content-type, and download URL.
-               // Uri downloadUrl = taskSnapshot.getDownloadUrl();
-                // Do what you want
-            }
-        });
-    }
-
+  //Hidden Private Key Was Here
 
 
     @Override
