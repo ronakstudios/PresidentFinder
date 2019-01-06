@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "876878287992",
+    "firebase_url": "https://hackruf2018.firebaseio.com",
+    "project_id": "hackruf2018",
+    "storage_bucket": "hackruf2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876878287992:android:a380e71006ac2a37",
+        "android_client_info": {
+          "package_name": "com.ronakparikhnj.presidentfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876878287992-tv2hbl5mgkub7d862rfvs31g3ohgun8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ronakparikhnj.presidentfinder",
+            "certificate_hash": "0b94f37966e45540ed9ad3dcbbc70d8dc909b8e4"
+          }
+        },
+        {
+          "client_id": "876878287992-kvnjdee61nd3gud0rfgre7gs77r87kfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByB4R8RamMnJeH1dLJ9LAUJtAhtaSEJzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876878287992-kvnjdee61nd3gud0rfgre7gs77r87kfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
