@@ -27,7 +27,7 @@ class RetrieveFeedTask extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... urls) {
         try {
             // TODO Auto-generated method stub
-            ClarifaiClient b = new ClarifaiBuilder("e2ea135ffff146f6a25ed06b6f70b780").buildSync();
+            ClarifaiClient b = new ClarifaiBuilder("HIDDEN KEY").buildSync();
             ClarifaiResponse c = (b.getDefaultModels().demographicsModel().predict().withInputs(ClarifaiInput.forImage(data2)).executeSync());
             String d = c.rawBody();
             String[] v = d.split("concepts");
