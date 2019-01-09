@@ -1,2 +1,3 @@
 # PresidentFinder
+### __Note this is not the full code because I had to delete the private keys since this page is public, please contact me directly for the full code or try out the compiled apks__
 This is an app I made in Android using Clarifai. It takes a picture of you and then uses the Clarifai neural network to guess your age, ethnicity, and gender. It then uses those data to rank how likely you are to be elected president. After making the app, I have noticed that there is something about human psychology that drives people to want to rank themselves and compare themselves with other people, making the app wildly popular.
